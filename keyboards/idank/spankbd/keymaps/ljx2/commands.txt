@@ -1,0 +1,9 @@
+qmk compile Downloads/idank_spankbd_ljx2.json -e TARGET=spankbd_ljx2_trackpoint_right -e USER_NAME=lucas.james -e OLED=yes -e OLED_FLIP=yes -e POINTING_DEVICE=trackpoint_trackball -e SIDE=right -e CONVERT_TO=rp2040_ce
+qmk compile Downloads/idank_spankbd_ljx2.json -e TARGET=spankbd_ljx2_trackpoint_right -e USER_NAME=lucas.james -e OLED=yes -e OLED_FLIP=yes -e POINTING_DEVICE=trackpoint -e POINTING_DEVICE_POSITION=right -e SIDE=right -e CONVERT_TO=rp2040_ce
+qmk compile Downloads/idank_spankbd_ljx2.json -e TARGET=spankbd_ljx2_trackpoint_right -e USER_NAME=lucas.james -e OLED=yes -e OLED_FLIP=yes -e POINTING_DEVICE=trackpoint -e SIDE=right -e CONVERT_TO=rp2040_ce
+qmk compile Downloads/idank_spankbd_ljx2.json -e TARGET=spankbd_ljx2_oled_left -e USER_NAME=lucas.james -e OLED=yes -e OLED_FLIP=yes -e SIDE=left -e CONVERT_TO=rp2040_ce
+
+# left side
+cp git/qmk_firmware/spankbd_ljx2_oled_left_rp2040_ce.uf2 /run/media/lucas.james/RPI-RP2/spankbd_ljx2_oled_left_rp2040_ce.uf2jfasdf
+# right side 
+cp git/qmk_firmware/spankbd_ljx2_trackpoint_right_rp2040_ce.uf2 /run/media/lucas.james/RPI-RP2/spankbd_ljx2_trackpoint_right_rp2040_ce.uf2
